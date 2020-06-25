@@ -1,0 +1,246 @@
+/* Wedding Announcement Theme-A Template made by R Web Designs LLC 2019*/
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Fondamento|Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    line-height:2.2rem;
+    color:#5a5a5a;
+}
+/*----------------------------Navigation starts here----------------------*/
+#main-nav{
+    background-color:rgba(198,139,68, 0.4)!important;
+    border-bottom:6px solid rgb(175,39,18);
+}
+.navbar .nav-link{
+    font-family: 'Lato', sans-serif;
+    font-size:1rem;
+    text-transform:uppercase;
+
+    margin-right:5rem !important;
+    color:#fff !important;
+}
+a.nav-link.active{
+    border-left:5px solid rgb(175,39,18); 
+}
+
+/*-- nav scrolling offset--*/
+.offset:before{
+    height:4rem;
+    margin-top:-4rem;
+    content:"";
+    display:block;
+  }
+  
+
+
+/*--------------------------General styles begin here--------------*/
+a{
+    color:#fff;
+}
+a:hover{
+    color:#fff; 
+}
+                                                                     /*  change banner-image below here   */
+.jumbotron{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../img/couple.jpg');
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:#ffffff;
+}
+.max-viewport{
+    min-height:80vh;
+}
+
+
+img.img-fluid.rounded.couple{
+    box-shadow: 2px 3px 4px rgb(0, 0, 0, .55); 
+}
+
+.hr-1{
+    border-bottom:4px ridge rgb(123,171,117); 
+    width:71rem;
+}
+.hr-2{
+    border-bottom:4px ridge rgba(123,203,192,0.5);
+}
+
+.btn-rsvp{
+padding: 12px 28px;
+border:6px solid rgb(187,139,95)!important;
+
+}
+
+.btn-rsvp:hover{
+ background-color:rgb(187,139,95)!important;
+ border:6px solid rgb(70,51,31);
+ transition:all 3s;
+
+}
+
+.mb-6{
+    margin-bottom:6rem;
+}
+/*----------------------------Heading Styles begin here-------------*/
+.display-4{
+    font-size:3.2rem;
+}
+@media (max-width: 768px) { 
+    .display-4{
+        font-size:2rem;
+    }
+
+  
+    p.lead{
+        font-size:1.3rem !important;
+    }
+}
+
+
+h1::first-letter{
+    color:rgb(123,171,117) !important;
+    font-size: 200%;
+}
+h2::first-letter{
+    color:rgb(187,139,95)!important;
+    font-size: 180%;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Great Vibes', cursive;
+}
+h1{
+    font-size:2.3rem;
+}
+
+h2{
+    font-size:2rem;
+}
+
+h3{
+    font-size:1.7rem;
+}
+
+h4{
+    font-size:1.6rem;
+}
+
+h5{
+    font-size:1rem;
+}
+
+h6{
+    font-size:.9rem;
+}
+p.lead{
+    font-size:1.6rem;
+}
+p{
+    font-size:1.3rem;
+    font-weight:300;
+    font-family:'Lato', sans-serif;
+    text-align:justify;
+}
+
+
+@media (max-width: 768px) { 
+    p.lead{
+        font-size:1.1rem;
+  
+    }
+    p{
+        font-size:1rem;
+      
+       
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------color styles begin here---------------*/
+
+.svg-inline--fa.fa-w-16,
+.svg-inline--fa.fa-w-16,
+.svg-inline--fa.fa-w-18{
+   color:rgb(123,171,117);
+}
+
+.bg-tan{
+    background-color:rgba(198,139,68, 0.4)!important;
+    border-top:3px solid rgb(175,39,18);
+}
+
+
+.bg-brown{
+    background-color:rgb(77,35,13); 
+}
+/*-------------------Video Play begin here---------------*/
+
+#video-play{
+    position:relative;
+    min-height:200px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)), url('../img/blossom.jpg');
+    background-repeat:no-repeat;
+    background-position:0 -300px;
+    text-align:center;
+    color:#fff;
+    background-attachment:scroll;
+}
+
+#video-play a{
+    color:#fff;
+}
+
+iframe {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 4px 4px 14px #000;
+    -webkit-box-shadow: 4px 4px 14px #000;
+    box-shadow: 4px 4px 14px #000;
+    width:100%;
+  } 
+
+.svg-inline--fa.fa-w-14{
+    color:rgb(74,43,30);
+   
+   }
+
+/*---------------------------Wedding Section begins here--------------*/
+
+#wedding-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../img/blossom.jpg');
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+
+.card{
+  padding:2.6rem;
+  margin-bottom:4rem;
+}
